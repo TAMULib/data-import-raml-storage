@@ -8,6 +8,14 @@
       "description": "Raw record content",
       "type": "string"
     },
+    "instanceId": {
+      "description": "instance id",
+      "$ref": "../common/uuid.json"
+    },
+    "sourceRecordId": {
+      "description": "source record id",
+      "$ref": "../common/uuid.json"
+    },
     "order": {
       "description": "Order of the record in incoming file",
       "type": "integer",
