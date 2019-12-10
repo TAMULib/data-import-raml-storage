@@ -10,7 +10,7 @@
     },
     "suppressInOpac": {
       "description": "Indication of disposition in Opac",
-      "$ref": "boolean"
+      "type": "boolean"
     },
     "instanceId": {
       "description": "instance id",
