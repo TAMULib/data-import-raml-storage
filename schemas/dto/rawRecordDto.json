@@ -8,9 +8,10 @@
       "description": "Raw record content",
       "type": "string"
     },
-    "suppressInOpac": {
-      "description": "Indication of disposition in Opac",
-      "type": "boolean"
+    "suppressDiscovery": {
+      "description": "Indication of disposition in Discovery",
+      "type": "boolean",
+      "default": false
     },
     "instanceId": {
       "description": "instance id",
