@@ -8,6 +8,10 @@
       "description": "Raw record content",
       "type": "string"
     },
+    "suppressInOpac": {
+      "description": "Indication of disposition in Opac",
+      "$ref": "boolean"
+    },
     "instanceId": {
       "description": "instance id",
       "$ref": "../common/uuid.json"
