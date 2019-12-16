@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Raw record DTO schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "record": {
+      "description": "Raw record content",
+      "type": "string"
+    },
+    "sourceRecordId": {
+      "description": "source record id",
+      "$ref": "../common/uuid.json"
+    },
+    "instanceId": {
+      "description": "instance id",
+      "$ref": "../common/uuid.json"
+    },
+    "suppressDiscovery": {
+      "description": "Indication of disposition in Discovery",
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "record",
+    "sourceRecordId",
+    "instanceId",
+    "suppressDiscovery"
+  ]
+}
