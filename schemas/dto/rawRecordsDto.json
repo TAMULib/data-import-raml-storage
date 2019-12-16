@@ -4,11 +4,12 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "records": {
+    "initialRecords": {
       "description": "List of raw records",
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "object",
+        "$ref": "./rawRecordDto.json"
       }
     },
     "recordsMetadata" : {
@@ -19,6 +20,6 @@
   },
   "required": [
     "recordsMetadata",
-    "records"
+    "initialRecords"
   ]
 }
