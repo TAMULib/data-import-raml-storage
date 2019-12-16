@@ -5,7 +5,11 @@
   "additionalProperties": false,
   "properties": {
     "id": {
-      "description": "UUID",
+      "description": "Corresponding source record id, which is the same as 999 subfield s",
+      "$ref": "../common/uuid.json"
+    },
+    "instanceId": {
+      "description": "Corresponding instance id, which is the same as 999 subfield i",
       "$ref": "../common/uuid.json"
     },
     "snapshotId": {
