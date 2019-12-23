@@ -1,16 +1,16 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Collection of log data transfer objects",
+  "description": "Collection of journal records",
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "logDtos": {
-      "description": "List of log data transfer objects",
+    "journalRecords": {
+      "description": "List of journal records",
       "type": "array",
-      "id": "logList",
+      "id": "journalRecordList",
       "items": {
         "type": "object",
-        "$ref": "logDto.json"
+        "$ref": "journalRecord.json"
       }
     },
     "totalRecords": {
@@ -21,7 +21,7 @@
     "totalRecords"
   ],
   "required": [
-    "logDtos",
+    "journalRecords",
     "totalRecords"
   ]
 }

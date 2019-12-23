@@ -2,13 +2,14 @@
   "jobExecutions": [
     {
       "id": "67dfac11-1caf-4470-9ad1-d533f6360bdd",
-      "hrId": "13414",
+      "hrId": 13414,
       "jobProfile": {
         "id": "fgbnukl5-1caf-4470-9ad1-d533f6360bdd",
         "name": "Profile for marc files"
       },
       "parentJobId": "67dfac11-1caf-4470-9ad1-d533f6360bdd",
       "subordinationType: "PARENT_SINGLE",
+      "sourcePath":"C:\import\files\import_1.csv",
       "fileName": "import_1.csv",
       "runBy": {
         "firstName": "Paolo",
@@ -27,13 +28,14 @@
     },
     {
       "id": "981oklm8-lkmn-mnds-za98-d533f6360bdd",
-      "hrId": "11844",
+      "hrId": 11844,
       "jobProfile": {
         "id": "22fgbthj-1caf-4470-9ad1-d533f6360bdd",
         "name": "Profile for marc files"
       },
       "parentJobId": "981oklm8-lkmn-mnds-za98-d533f6360bdd",
       "subordinationType: "PARENT_SINGLE",
+      "sourcePath":"C:\import\files\import_1.csv",
       "fileName": "import_11.csv",
       "runBy": {
         "firstName": "Brad",
