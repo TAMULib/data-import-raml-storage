@@ -22,6 +22,11 @@
       "type": "object",
       "$ref": "../common/profileInfo.json"
     },
+    "firstGeneration": {
+      "description": "Indicator of first generation record to avoid lookup calculation of generation",
+      "type": "boolean",
+      "default": true
+    },
     "userId": {
       "description": "ID of the user initializing JobExecutions",
       "$ref": "../common/uuid.json"
