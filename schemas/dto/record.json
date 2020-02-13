@@ -8,6 +8,10 @@
       "description": "UUID",
       "$ref": "../common/uuid.json"
     },
+    "instanceId": {
+      "description": "Corresponding instance id, which is the same as 999 subfield i",
+      "$ref": "../common/uuid.json"
+    },
     "snapshotId": {
       "description": "Corresponding snapshot id, which is the same as jobExecutionId",
       "$ref": "../common/uuid.json"
