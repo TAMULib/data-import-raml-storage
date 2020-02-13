@@ -8,6 +8,19 @@
       "description": "Raw record content",
       "type": "string"
     },
+    "sourceRecordId": {
+      "description": "Source record id",
+      "$ref": "../common/uuid.json"
+    },
+    "instanceId": {
+      "description": "Instance id",
+      "$ref": "../common/uuid.json"
+    },
+    "suppressDiscovery": {
+      "description": "Indication of disposition in Discovery",
+      "type": "boolean",
+      "default": false
+    },
     "order": {
       "description": "Order of the record in incoming file",
       "type": "integer",
