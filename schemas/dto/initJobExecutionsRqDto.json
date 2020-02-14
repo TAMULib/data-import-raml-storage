@@ -25,7 +25,7 @@
     "firstGeneration": {
       "description": "Indicator of first generation record to avoid lookup calculation of generation",
       "type": "boolean",
-      "default": true
+      "default": false
     },
     "userId": {
       "description": "ID of the user initializing JobExecutions",

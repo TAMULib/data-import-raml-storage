@@ -16,7 +16,7 @@
     "firstGeneration": {
       "description": "Indicator of first generation record to avoid lookup calculation of generation",
       "type": "boolean",
-      "default": true
+      "default": false
     },
     "totalRecords": {
       "description": "Total number of records",
